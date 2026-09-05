@@ -5,10 +5,11 @@ export const API_BASE_URL =
 
 
 export interface Clause {
-  id: str;
+  id: string;
   section_number: string;
   title: string;
   text: string;
+
   category: string;
   has_contradiction: boolean;
   extracted_params?: any;
